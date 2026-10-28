@@ -7,7 +7,7 @@ Key tools:
 2. TIAToolbox: Enables cell-level spatial analysis to characterize the distance distribution between immune and tumor cells, summarized using parameters of a Weibull distribution.
    
 Hypothesis: Incorporating the spatial distribution of immune cells relative to tumor cells into a mechanistic model will improve tumor response prediction beyond using molecular signature activity alone.
-HistoTME
+
 
 Long-term goal is to integrate ODE-based mechanistic model into image-based data, to improve overall long-term prediction of tumor treatment response.
 
@@ -15,7 +15,7 @@ Long-term goal is to integrate ODE-based mechanistic model into image-based data
 ======================================================================================================================================================================================
 ![](figures/HistoTME_outline.png)
 
-
+HistoTME
 ## Overview 
 HistoTME is a weakly supervised deep learning model that infers cell type– and pathway-specific transcriptomic signature activity directly from H&E-stained whole-slide images (WSIs), without requiring single-cell resolution or explicit patch-level annotations. The model leverages patch embeddings generated from large-scale digital pathology foundation models and a multiple instance learning-based regression module to predict bulk transcriptomic signature activity from whole slide H&E images. This design enables HistoTME to learn biologically grounded representations of the tumor microenvironment (TME), bridging image-based and transcriptomic modalities.
 
