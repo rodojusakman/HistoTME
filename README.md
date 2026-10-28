@@ -1,3 +1,10 @@
+**Project Goal:**
+
+To integrate mechanistic model (through ODE-based mechanistic model) into biopsy data, to improve tumor treatment prediction.
+
+
+
+
 HistoTME
 ==============
 ![](figures/HistoTME_outline.png)
