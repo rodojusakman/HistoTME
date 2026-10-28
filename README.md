@@ -12,7 +12,7 @@ HistoTME
 Long-term goal is to integrate ODE-based mechanistic model into image-based data, to improve overall long-term prediction of tumor treatment response.
 
 
-==============
+======================================================================================================================================================================================
 ![](figures/HistoTME_outline.png)
 
 
