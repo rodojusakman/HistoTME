@@ -1,11 +1,17 @@
 **Project Goal:**
 
-To integrate mechanistic model (through ODE-based mechanistic model) into biopsy data, to improve tumor treatment prediction.
+Objective: Integrate an ODE-based mechanistic model with biopsy-derived data to improve tumor treatment response prediction.
 
-
-
-
+Key tools:
+1. HistoTME: Leverages the UNI foundation model to infer transcriptomic signature activity from histopathology images, capturing antitumor and protumor biological processes.
+2. TIAToolbox: Enables cell-level spatial analysis to characterize the distance distribution between immune and tumor cells, summarized using parameters of a Weibull distribution.
+   
+Hypothesis: Incorporating the spatial distribution of immune cells relative to tumor cells into a mechanistic model will improve tumor response prediction beyond using molecular signature activity alone.
 HistoTME
+
+Long-term goal is to integrate ODE-based mechanistic model into image-based data, to improve overall long-term prediction of tumor treatment response.
+
+
 ==============
 ![](figures/HistoTME_outline.png)
 
