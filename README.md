@@ -12,10 +12,12 @@ Hypothesis: Incorporating the spatial distribution of immune cells relative to t
 Long-term goal is to integrate ODE-based mechanistic model into image-based data, to improve overall long-term prediction of tumor treatment response.
 
 
+
+
 ======================================================================================================================================================================================
 ![](figures/HistoTME_outline.png)
 
-HistoTME
+**HistoTME**
 ## Overview 
 HistoTME is a weakly supervised deep learning model that infers cell type– and pathway-specific transcriptomic signature activity directly from H&E-stained whole-slide images (WSIs), without requiring single-cell resolution or explicit patch-level annotations. The model leverages patch embeddings generated from large-scale digital pathology foundation models and a multiple instance learning-based regression module to predict bulk transcriptomic signature activity from whole slide H&E images. This design enables HistoTME to learn biologically grounded representations of the tumor microenvironment (TME), bridging image-based and transcriptomic modalities.
 
