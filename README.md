@@ -3,7 +3,7 @@
 Objective: Integrate an ODE-based mechanistic model with biopsy-derived data to improve tumor treatment response prediction.
 
 Key tools:
-1. HistoTME: Leverages the UNI foundation model to infer transcriptomic signature activity from histopathology images, capturing antitumor and protumor biological processes.
+1. HistoTME: Leverages the **UNI** foundation model to infer transcriptomic signature activity from histopathology images, capturing antitumor and protumor biological processes.
 2. TIAToolbox: Enables cell-level spatial analysis to characterize the distance distribution between immune and tumor cells, summarized using parameters of a Weibull distribution.
    
 Hypothesis: Incorporating the spatial distribution of immune cells relative to tumor cells into a mechanistic model will improve tumor response prediction beyond using molecular signature activity alone.
